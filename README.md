@@ -12,17 +12,6 @@ This repository contains my solutions of the quizes that I did as part of Udacit
 - [x]  SQL Window Functions [Advanced]
 - [x]  SQL Advanced Joins & Performance Tuning
 
-##
-
-You can restore the toy dataset  "parch and posey" to your local machines from the file **parch_and_posey_db** using the following steps:
-
-1. Open Terminal.
-2. Enter PostgreSQL console - `psql` 
-3. Create a new database - `CREATE DATABASE parch_and_posey;`
-4. Restore into the database - `pg_restore -d parch_and_posey /path/to/parch_and_posey_db`
-
-Now, SQL commands can be used to explore the dataset and run queries on it.
-
 ## 
 
 The entire course uses a database called "Parch and Posey" which has info about a paper selling (imaginary)company.
